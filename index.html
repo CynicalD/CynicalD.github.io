@@ -6,7 +6,13 @@
     <title>Rayan Hassan | Links</title>
     <style>
         body {
-            background-color: #0d1117;
+            background-image: url('website-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-color: #0d1117; 
+            
             color: #c9d1d9;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             display: flex;
@@ -14,11 +20,18 @@
             align-items: center;
             padding: 50px 20px;
             margin: 0;
+            min-height: 100vh;
         }
         .container {
             max-width: 420px;
             width: 100%;
             text-align: center;
+            
+            background-color: rgba(13, 17, 23, 0.85); 
+            padding: 40px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
         }
         h1 {
             font-size: 26px;
@@ -29,6 +42,12 @@
             font-size: 16px;
             color: #8b949e;
             line-height: 1.5;
+            margin-bottom: 15px;
+            padding: 0 10px;
+        }
+        .sub-text {
+            font-size: 14px;
+            color: #6e7681;
             margin-bottom: 30px;
             padding: 0 10px;
         }
@@ -57,7 +76,7 @@
         }
         .resume-btn:hover { background-color: #2ea043; }
 
-        /* LockedIn */
+        /* Locked In */
         .linkedin-btn {
             background-color: #0a66c2;
             border-color: #0077b5;
@@ -75,8 +94,12 @@
 <body>
     <div class="container">
         <h1>Hi, I'm Rayan 👋</h1>
+        
         <p class="intro-text">
             I'm a 3rd-year Computer Science student at Carleton University with experience in <span class="highlight">full-stack and systems engineering</span>. I'm actively seeking software engineering internship opportunities for <span class="highlight">Fall/Winter 2026/7</span>.
+        </p>
+        <p class="sub-text">
+            Down below you can find links to my resume, LinkedIn, as well as my GitHub repo.
         </p>
 
         <a href="resume.pdf" class="link-btn resume-btn" target="_blank">📄 View Resume</a>
